@@ -1,0 +1,183 @@
+body, h1, h2, p, ul, li, blockquote, button, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    background: url('header-image.jpg') center/cover;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.feature {
+    flex: 1;
+    background-color: #333;
+    padding: 30px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+.benefits {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.benefits ul {
+    list-style: none;
+    text-align: left;
+}
+
+.benefits li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.benefits li:before {
+    content: '\2022';
+    color: #fff;
+    margin-right: 10px;
+}
+
+.testimonial {
+    background: #1a1a1a;
+    padding: 60px 0;
+}
+
+.quote {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.quote blockquote {
+    font-style: italic;
+    font-size: 20px;
+    color: #e74c3c;
+}
+
+.quote p {
+    margin-top: 20px;
+}
+
+.pricing {
+    background-color: #3498db;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.pricing-card {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+.contact {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 300px; /* Limit the width to 300px */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
